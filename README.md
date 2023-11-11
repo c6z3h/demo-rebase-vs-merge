@@ -11,7 +11,7 @@ Based on an Atlassian article on this https://www.atlassian.com/git/tutorials/me
 |   4. Same file (source unchanged, target remove) | (nothing changed) | (same as rebase) |
 |   5. Same file (source unchanged, target add)    | (nothing changed) | (same as rebase) |
 |   6. Same file (source unchanged, target unchanged) | (nothing changed) | (same as rebase) |
-|   7a. Same file (source remove, before target remove) | ?? | ?? |
+|   7a. Same file (source remove, before target remove) | removed line remains removed, removed line is removed | (same as rebase) |
 |   7b. Same file (source remove, after target remove) | removed line remains removed, removed line is removed | (same as rebase) |
 |   8a. Same file (source remove, before target add)         |               |              |
 |   8b. Same file (source remove, after target add)         |               |              |
@@ -35,3 +35,8 @@ Makes sense the additions were for some purpose. But for example, if the change 
 No new commits to merge or rebase so no changes.
 
 ### Scenario 7: Remove from source, remove from target
+See scenario 1.
+
+### The rest... feels like too much time spent for now, but the bottomline is just
+- write unit tests if have time (who am I kidding?)
+- code review the changes, specifically in files you know that you have amended in the local branch (for example you were working on search function, don't bother checking the homepage code change, just verify that your search pages are still valid)
