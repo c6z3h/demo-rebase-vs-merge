@@ -9,7 +9,7 @@ Based on an Atlassian article on this https://www.atlassian.com/git/tutorials/me
 |   2b. Same file (source add, after target add)    | (same as 2a) | (same as 2a) |
 |   3. Same file (source add, target unchanged)    | changes added | (same as rebase) |
 |   4. Same file (source unchanged, target remove) | changes re-added | (same as rebase) |
-|   5. Same file (source unchanged, target add)    |               |              |
+|   5. Same file (source unchanged, target add)    | (nothing changed) | (same as rebase) |
 |   6. Same file (source unchanged, target unchanged)|               |              |
 |   7a. Same file (source remove, target remove)      |               |              |
 |   7b. Same file (source remove, target remove)      |               |              |
