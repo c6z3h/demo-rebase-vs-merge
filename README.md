@@ -7,7 +7,7 @@ Based on an Atlassian article on this https://www.atlassian.com/git/tutorials/me
 |   1b. Same file (source add, after target remove) | ask me to choose either source version with 2 lines, or target version with 1 line | (same as rebase) |
 |   2a. Same file (source add, before target add)   | ask me to choose between old and new added line | (same as rebase) |
 |   2b. Same file (source add, after target add)    | (same as 2a) | (same as 2a) |
-|   3. Same file (source add, target unchanged)    |               |              |
+|   3. Same file (source add, target unchanged)    | changes added | (same as rebase) |
 |   4. Same file (source unchanged, target remove) |               |              |
 |   5. Same file (source unchanged, target add)    |               |              |
 |   6. Same file (source unchanged, target unchanged)|               |              |
@@ -27,3 +27,6 @@ For scenario 1b, it looks much safer as the `merge / rebase conflict` reflects t
 
 ### Scenario 2: Add to source, add to target
 For these scenarios, it is quite clear cut, and diffs are shown explicitly.
+
+### Scenario 3: Add to source, unchanged target
+Makes sense the additions were for some purpose.
