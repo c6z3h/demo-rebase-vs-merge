@@ -4,5 +4,6 @@ const madness = 'urine'
 const moreMadness = 'coke'
 const purity = 'water'
 const shit = 'candleWax'
+const chai = 'indianTea'
 
-console.log(variable + catalyst + madness + moreMadness + purity + shit) // anyone's imagination
+console.log(variable + catalyst + madness + moreMadness + purity + shit + chai) // anyone's imagination
