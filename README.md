@@ -3,7 +3,8 @@ Based on an Atlassian article on this https://www.atlassian.com/git/tutorials/me
 
 |                                                   |   Git rebase  |   Git merge  |
 |---------------------------------------------------|---------------|--------------|
-|   Same file (source add, target remove)           |               |              |
+|   Same file (source add, then target remove)      | removed line remains removed, added line is added | (same as rebase) |
+|   Same file (source add, before target remove)    |               |              |
 |   Same file (source add, target add)              |               |              |
 |   Same file (source add, target unchanged)        |               |              |
 |   Same file (source unchanged, target remove)     |               |              |
