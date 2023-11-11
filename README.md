@@ -11,8 +11,8 @@ Based on an Atlassian article on this https://www.atlassian.com/git/tutorials/me
 |   4. Same file (source unchanged, target remove) | (nothing changed) | (same as rebase) |
 |   5. Same file (source unchanged, target add)    | (nothing changed) | (same as rebase) |
 |   6. Same file (source unchanged, target unchanged) | (nothing changed) | (same as rebase) |
-|   7a. Same file (source remove, before target remove) | removed line remains removed, removed line is removed | (same as rebase) |
-|   7b. Same file (source remove, after target remove) | (nothing changed) | (nothing changed) |
+|   7a. Same file (source remove, before target remove) | ?? | ?? |
+|   7b. Same file (source remove, after target remove) | removed line remains removed, removed line is removed | (same as rebase) |
 |   8a. Same file (source remove, before target add)         |               |              |
 |   8b. Same file (source remove, after target add)         |               |              |
 |   9. Same file (source remove, target unchanged)   |               |              |
