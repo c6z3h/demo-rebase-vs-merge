@@ -5,7 +5,7 @@ Based on an Atlassian article on this https://www.atlassian.com/git/tutorials/me
 |---------------------------------------------------|---------------|--------------|
 |   1a. Same file (source add, before target remove)| removed line remains removed, added line is added | (same as rebase) |
 |   1b. Same file (source add, after target remove) | ask me to choose either source version with 2 lines, or target version with 1 line | (same as rebase) |
-|   2a. Same file (source add, before target add)   |               |              |
+|   2a. Same file (source add, before target add)   | ask me to choose between old and new added line | (same as rebase) |
 |   2b. Same file (source add, after target add)    |               |              |
 |   3a. Same file (source add, target unchanged)    |               |              |
 |   4a. Same file (source unchanged, target remove) |               |              |
